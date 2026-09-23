@@ -1,65 +1,71 @@
-Aim
-To create a simple HTML webpage that demonstrates the use of basic CSS selectors such as Universal
-Selector, Element Selector, ID Selector, Class Selector, and Grouping Selector for styling HTML elements.
-Procedure
-1. Open a text editor such as Notepad or Visual Studio Code.
-2. Create a new HTML file and save it as basic_selectors.html.
-3. Write the basic HTML structure using &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; tags.
-4. Add an internal &lt;style&gt; section inside the &lt;head&gt; tag.
-5. Define different CSS selectors:
- Universal Selector (*)
- Element Selector (h1)
- ID Selector (#heading)
- Class Selector (.info)
- Grouping Selector (h2, p)
-6. Add HTML elements such as headings and paragraphs in the &lt;body&gt; section.
-7. Apply the CSS selectors to the corresponding HTML elements.
-8. Save the file and open it in a web browser.
-9. Observe how each selector applies different styles to the HTML elements.
-Code:
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;Basic CSS Selectors&lt;/title&gt;
-&lt;style&gt;
-/* Universal Selector */
-* {
-font-family: Arial, sans-serif;
-}
-/* Element Selector */
-h1 {
-color: darkblue;
+<!DOCTYPE html>
 
-text-align: center;
-}
-/* ID Selector */
-#heading {
-color: red;
-}
-/* Class Selector */
-.info {
-color: green;
-font-size: 18px;
-}
-/* Grouping Selector */
-h2, p {
-margin: 10px;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1 id=&quot;heading&quot;&gt;Basic CSS Selectors&lt;/h1&gt;
-&lt;h2&gt;Element Selector Example&lt;/h2&gt;
-&lt;p class=&quot;info&quot;&gt;
-This paragraph uses the &lt;strong&gt;class selector&lt;/strong&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-This paragraph is styled using the &lt;strong&gt;grouping selector&lt;/strong&gt;.
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<html lang="en">
 
-Result:
-The HTML page is created successfully, and the basic CSS selectors are applied correctly to style the
-webpage.
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>MY College website</title>
+
+        <style>
+
+            *{
+
+                font-family:ARial, san-serif;
+
+            }
+
+            h1 {
+
+                color:rgb(86, 0, 139);
+
+                text-align: center;
+
+            }
+
+            #heading {
+
+                color:rgba(255, 0, 0, 0.833);
+
+            }
+
+            .info {
+
+                color:rgb(0, 120, 175);
+
+                font-size: 18px;
+
+            }
+
+            h2, p{
+
+                margin: 10px;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1 id="heading">Welcome to my college</h1>
+
+        <h2>About our campus</h2>
+
+        <p class="info">
+
+            Our college provides quality education and encourages student to develop their technical skills.
+
+        </p>
+
+        <p>
+
+            Student participate in cultural events, sports, workshops, and placement training throughout the academic year.
+
+        </p>
+
+    </body>
+
+</html>
